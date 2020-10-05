@@ -124,9 +124,9 @@
         				"platformName":"Android",
         				"deviceName": "emulator-5554",
         				"platformVersion": "11",
-        				"automationName": "Appium",
-						"appPackage": "de.kidcoins.development",
-						"appActivity": "de.kidcoins.kidcoins.MainActivity"
+        				"automationName": "Flutter",
+						"appPackage": "com.nobigdeal",
+						"appActivity": "com.nobigdeal.MainActivity"
       				}
 				}
 			},
@@ -137,9 +137,8 @@
         				"platformName":"Android",
         				"deviceName": "Samsung Galaxy S7 edge",
         				"platformVersion": "8.0.0",
-        				"automationName": "Appium",
-						"appPackage": "de.kidcoins.development",
-						"appActivity": "de.kidcoins.kidcoins.MainActivity"
+						"appPackage": "com.nobigdeal",
+						"appActivity": "com.nobigdeal.MainActivity"
       				}
 				}
 			}
@@ -148,17 +147,17 @@
 			"GooglePixel3Real": {
 				"appium": {
 					"platform": "Android",
-					"app": "bs://-",
+					"app": "bs://ba79c0769159655c7b4a0167dd4456efce315fd6",
 					"host": "hub-cloud.browserstack.com",
-					"user": "-",
-					"key": "-",
+					"user": "justintime4",
+					"key": "spyTBMY46biK1xF1q3zb",
 					"port": 4444,
 					"capabilities": {
 						"realMobile": true,
 						"build": "Node Android - 13/08(2)",
 						"platformVersion": "9.0",
 						"deviceName": "Google Pixel 3",
-						"app": "bs://-",
+						"app": "bs://ba79c0769159655c7b4a0167dd4456efce315fd6",
 						"project": "Login From",
 						"name": "Login Test",
 						"browserstack.appium_version": "1.17.0"
@@ -170,12 +169,12 @@
 			"GalaxyS8Sim": {
 				"appium": {
 					"platformName": "Android",
-					"app": "storage:-",
-		 			"host": "-:-c@ondemand.eu-central-1.saucelabs.com",
+					"app": "storage:4f378db0-3980-4285-aae6-9cff3852fc9d",
+		 			"host": "edallanjoe:8e705313-a6da-4a35-a588-a1cc50adf6bf@ondemand.eu-central-1.saucelabs.com",
      	 			"path": "/wd/hub",
 		 			"port": 80,
-		 			"user": "-", 
-         			"key": "-", 
+		 			"user": "edallanjoe", 
+         			"key": "8e705313-a6da-4a35-a588-a1cc50adf6bf", 
     	 			"capabilities": {
 						"platformName": "Android",
 						"platformVersion" : "8.1",
@@ -186,24 +185,26 @@
 						"automationName": "Appium"
 					}
 				}
-			},
-			"GalaxyA2CoreReal": {
+			}
+		},
+		"bitbar": {
+			"androidReal": {
 				"appium": {
 					"platformName": "Android",
-					"app": "storage:-",
-		 			"host": "-:-@ondemand.eu-central-1.saucelabs.com",
+					"app": "kobiton-store:73430",
+		 			"host": "jtime:ba032643-a3d4-460e-9ce6-a104cdcea2f4@api.kobiton.com",
      	 			"path": "/wd/hub",
-		 			"port": 80,
-		 			"user": "-", 
-         			"key": "-", 
+					"port": 80,
     	 			"capabilities": {
-						"platformName": "Android",
-						"platformVersion" : "8.1.0",
-						"deviceName": "Samsung Galaxy A2 Core",
-						"project": "Login From",
-						"name": "Login Test",
-						"appiumVersion": "1.17.1",
-						"automationName": "Appium"
+						"sessionName": "Automation test session",
+						"sessionDescription": "",
+						"deviceOrientation": "portrait",
+						"captureScreenshots": true,
+						"browserName": "chrome",
+						"deviceGroup": "KOBITON",
+						"deviceName": "Xperia 10 Plus",
+						"platformVersion": "10",
+						"platformName": "Android"
 					}
 				}
 			}
