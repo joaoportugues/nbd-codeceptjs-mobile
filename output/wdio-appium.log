@@ -1,0 +1,174 @@
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"iOS","platformVersion":"13.6","deviceName":"Phone 11 Pro Max","udid":"571E045A-5AE7-4ED8-8C89-ED79E3686A56","xcodeOrgId":"ZU3W7MF9F6","xcodeSigningId":"iPhone Developer","noReset":true,"app":"de.kid-coins.development-qa","automationName":"Flutter"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"iOS","platformVersion":"13.6","deviceName":"Phone 11 Pro Max","udid":"571E045A-5AE7-4ED8-8C89-ED79E3686A56","xcodeOrgId":"ZU3W7MF9F6","xcodeSigningId":"iPhone Developer","noReset":true,"app":"de.kid-coins.development-qa","automationName":"Flutter"}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"iOS","platformVersion":"13.6","deviceName":"Phone 11 Pro Max","udid":"571E045A-5AE7-4ED8-8C89-ED79E3686A56","xcodeOrgId":"ZU3W7MF9F6","xcodeSigningId":"iPhone Developer","noReset":true,"app":"de.kid-coins.development-qa","automationName":"Flutter"},null,{"alwaysMatch":{"platformName":"iOS","platformVersion":"13.6","deviceName":"Phone 11 Pro Max","udid":"571E045A-5AE7-4ED8-8C89-ED79E3686A56","xcodeOrgId":"ZU3W7MF9F6","xcodeSigningId":"iPhone Developer","noReset":true,"app":"de.kid-coins.development-qa","automationName":"Flutter"},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1597411701101 (15:28:21 GMT+0200 (Central European Summer Time))
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platformVersion
+[35m[BaseDriver][39m   deviceName
+[35m[BaseDriver][39m   udid
+[35m[BaseDriver][39m   xcodeOrgId
+[35m[BaseDriver][39m   xcodeSigningId
+[35m[BaseDriver][39m   noReset
+[35m[BaseDriver][39m   app
+[35m[BaseDriver][39m   automationName
+[35m[Appium][39m Appium v1.18.0 creating new FlutterDriver (v0.0.23) session
+[debug] [35m[BaseDriver][39m Creating session with MJSONWP desired capabilities: {
+[debug] [35m[BaseDriver][39m   "platformName": "iOS",
+[debug] [35m[BaseDriver][39m   "platformVersion": "13.6",
+[debug] [35m[BaseDriver][39m   "deviceName": "Phone 11 Pro Max",
+[debug] [35m[BaseDriver][39m   "udid": "571E045A-5AE7-4ED8-8C89-ED79E3686A56",
+[debug] [35m[BaseDriver][39m   "xcodeOrgId": "ZU3W7MF9F6",
+[debug] [35m[BaseDriver][39m   "xcodeSigningId": "iPhone Developer",
+[debug] [35m[BaseDriver][39m   "noReset": true,
+[debug] [35m[BaseDriver][39m   "app": "de.kid-coins.development-qa",
+[debug] [35m[BaseDriver][39m   "automationName": "Flutter"
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   xcodeOrgId
+[35m[BaseDriver][39m   xcodeSigningId
+[35m[BaseDriver][39m Session created with session id: 92a5071a-213d-43cf-8710-ddfeeb683d0c
+[35m[FlutterDriver][39m Starting an IOS proxy session
+[debug] [35m[BaseDriver][39m Creating session with MJSONWP desired capabilities: {
+[debug] [35m[BaseDriver][39m   "platformName": "iOS",
+[debug] [35m[BaseDriver][39m   "platformVersion": "13.6",
+[debug] [35m[BaseDriver][39m   "deviceName": "Phone 11 Pro Max",
+[debug] [35m[BaseDriver][39m   "udid": "571E045A-5AE7-4ED8-8C89-ED79E3686A56",
+[debug] [35m[BaseDriver][39m   "xcodeOrgId": "ZU3W7MF9F6",
+[debug] [35m[BaseDriver][39m   "xcodeSigningId": "iPhone Developer",
+[debug] [35m[BaseDriver][39m   "noReset": true,
+[debug] [35m[BaseDriver][39m   "app": "de.kid-coins.development-qa",
+[debug] [35m[BaseDriver][39m   "automationName": "Flutter",
+[debug] [35m[BaseDriver][39m   "newCommandTimeout": 0
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: 1d455f89-77ef-475a-8315-e12370a7b9c4
+[debug] [35m[XCUITest][39m Current user: 'ragnarok'
+[debug] [35m[XCUITest][39m Available devices: 
+[debug] [35m[XCUITest][39m No real device with udid '571E045A-5AE7-4ED8-8C89-ED79E3686A56'. Looking for simulator
+[35m[iOSSim][39m Constructing iOS simulator for Xcode version 11.6 with udid '571E045A-5AE7-4ED8-8C89-ED79E3686A56'
+[35m[XCUITest][39m Determining device to run tests on: udid: '571E045A-5AE7-4ED8-8C89-ED79E3686A56', real device: false
+[debug] [35m[BaseDriver][39m Event 'xcodeDetailsRetrieved' logged at 1597411702005 (15:28:22 GMT+0200 (Central European Summer Time))
+[debug] [35m[XCUITest][39m App is an iOS bundle, will attempt to run as pre-existing
+[debug] [35m[BaseDriver][39m Event 'appConfigured' logged at 1597411702006 (15:28:22 GMT+0200 (Central European Summer Time))
+[debug] [35m[BaseDriver][39m Event 'resetStarted' logged at 1597411702006 (15:28:22 GMT+0200 (Central European Summer Time))
+[debug] [35m[XCUITest][39m Reset: noReset is on. Leaving simulator as is
+[debug] [35m[BaseDriver][39m Event 'resetComplete' logged at 1597411702006 (15:28:22 GMT+0200 (Central European Summer Time))
+[35m[WebDriverAgent][39m Using WDA path: '/Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [35m[IOSSimulatorLog][39m Starting log capture for iOS Simulator with udid '571E045A-5AE7-4ED8-8C89-ED79E3686A56' using simctl
+[debug] [35m[BaseDriver][39m Event 'logCaptureStarted' logged at 1597411703045 (15:28:23 GMT+0200 (Central European Summer Time))
+[35m[XCUITest][39m Setting up simulator
+[debug] [35m[iOS][39m No reason to set locale
+[debug] [35m[iOS][39m No iOS / app preferences to set
+[debug] [35m[iOS][39m Setting did not need to be updated
+[debug] [35m[iOSSim][39m Setting preferences of 571E045A-5AE7-4ED8-8C89-ED79E3686A56 Simulator to {"ConnectHardwareKeyboard":false}
+[debug] [35m[iOSSim][39m Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false}
+[debug] [35m[iOSSim][39m Updated 571E045A-5AE7-4ED8-8C89-ED79E3686A56 Simulator preferences at '/Users/ragnarok/Library/Preferences/com.apple.iphonesimulator.plist' with {"DevicePreferences":{"571E045A-5AE7-4ED8-8C89-ED79E3686A56":{"ConnectHardwareKeyboard":false}},"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false}
+[debug] [35m[iOSSim][39m Got Simulator UI client PID: 27511
+[35m[iOSSim][39m Both Simulator with UDID '571E045A-5AE7-4ED8-8C89-ED79E3686A56' and the UI client are currently running
+[debug] [35m[BaseDriver][39m Event 'simStarted' logged at 1597411703211 (15:28:23 GMT+0200 (Central European Summer Time))
+[debug] [35m[WebDriverAgent][39m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[35m[DevCon Factory][39m Requesting connection for device 571E045A-5AE7-4ED8-8C89-ED79E3686A56 on local port 8100
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[35m[DevCon Factory][39m Successfully requested the connection for 571E045A-5AE7-4ED8-8C89-ED79E3686A56:8100
+[debug] [35m[XCUITest][39m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"name":"iOS","version":"13.6","sdkVersion":"13.4"},"ios":{"simulatorVersion":"13.6","ip":"192.168.178.28"},"ready":true,"build":{"upgradedAt":"1594648257269","time":"Aug 13 2020 13:33:10","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":"5DC9B219-62EA-4C84-8C52-53CED467B49B"}
+[debug] [35m[WebDriverAgent][39m Upgrade timestamp of the currently bundled WDA: null
+[debug] [35m[WebDriverAgent][39m Upgrade timestamp of the WDA on the device: 1594648257269
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+[debug] [35m[XCUITest][39m Trying to start WebDriverAgent 2 times with 10000ms interval
+[debug] [35m[XCUITest][39m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] [35m[BaseDriver][39m Event 'wdaStartAttempted' logged at 1597411703482 (15:28:23 GMT+0200 (Central European Summer Time))
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"name":"iOS","version":"13.6","sdkVersion":"13.4"},"ios":{"simulatorVersion":"13.6","ip":"192.168.178.28"},"ready":true,"build":{"upgradedAt":"1594648257269","time":"Aug 13 2020 13:33:10","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":"5DC9B219-62EA-4C84-8C52-53CED467B49B"}
+[debug] [35m[BaseDriver][39m Event 'wdaSessionAttempted' logged at 1597411703486 (15:28:23 GMT+0200 (Central European Summer Time))
+[debug] [35m[XCUITest][39m Sending createSession command to WDA
+[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"de.kid-coins.development-qa","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}],"alwaysMatch":{}}}
+[debug] [35m[WebDriverAgent][39m Parsed BUILD_DIR configuration value: '/Users/ragnarok/Library/Developer/Xcode/DerivedData/WebDriverAgent-ezdlzscyhqepmfehjryzaoobqvmj/Build/Products'
+[debug] [35m[WebDriverAgent][39m Got derived data root: '/Users/ragnarok/Library/Developer/Xcode/DerivedData/WebDriverAgent-ezdlzscyhqepmfehjryzaoobqvmj'
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"sessionId":"07397BB6-CE11-4887-8E56-BDE8A0433C25","capabilities":{"device":"iphone","browserName":"KC dev","sdkVersion":"13.6","CFBundleIdentifier":"de.kid-coins.development-qa"}},"sessionId":"07397BB6-CE11-4887-8E56-BDE8A0433C25"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[debug] [35m[BaseDriver][39m Event 'wdaSessionStarted' logged at 1597411712232 (15:28:32 GMT+0200 (Central European Summer Time))
+[debug] [35m[BaseDriver][39m Event 'wdaStarted' logged at 1597411712232 (15:28:32 GMT+0200 (Central European Summer Time))
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[debug] [35m[BaseDriver][39m Event 'orientationSet' logged at 1597411712233 (15:28:32 GMT+0200 (Central European Summer Time))
+[debug] [35m[BaseDriver][39m The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+[debug] [35m[BaseDriver][39m The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+[35m[FlutterDriver][39m Attempt #1
+[35m[FlutterDriver][39m Connecting to Dart Observatory: ws://127.0.0.1:59570/TyryFHuEZBU=/ws
+[35m[FlutterDriver][39m Connected to ws://127.0.0.1:59570/TyryFHuEZBU=/ws
+[35m[FlutterDriver][39m Listing all isolates: [{"type":"@Isolate","id":"isolates/412536832412515","name":"main","number":"412536832412515"}]
+[35m[Appium][39m New FlutterDriver session created successfully, session 92a5071a-213d-43cf-8710-ddfeeb683d0c added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1597411712343 (15:28:32 GMT+0200 (Central European Summer Time))
+[debug] [35m[MJSONWP (92a5071a)][39m Cached the protocol value 'MJSONWP' for the new session 92a5071a-213d-43cf-8710-ddfeeb683d0c
+[debug] [35m[MJSONWP (92a5071a)][39m Responding to client with driver.createSession() result: {"shell":null,"allowCors":false,"reboot":false,"ipa":null,"address":"0.0.0.0","port":4723,"basePath":"/","callbackAddress":null,"callbackPort":null,"bootstrapPort":4724,"backendRetries":3,"sessionOverride":false,"launch":false,"logFile":null,"loglevel":"debug","logTimestamp":false,"localTimezone":false,"logNoColors":false,"webhook":null,"safari":false,"defaultDevice":false,"forceIphone":false,"forceIpad":false,"automationTraceTemplatePath":null,"instrumentsPath":null,"nodeconfig":null,"robotAddress":"0.0.0.0","robotPort":-1,"chromedriverExecutable":null,"showConfig":false,"noPermsCheck":false,"enforceStrictCaps":false,"isolateSimDevice":false,"tmpDir":"/var/folders/vj/rwh0h09n5f79br9wmzfsl28m0000gn/T","traceDir":null,"debugLogSpacing":false,"suppressKillServer":false,"longStacktrace":false,"webkitDebugProxyPort":27753,"wdaLocalPort":8100,"defaultCapabilities":{},"relaxedSecurityEnabled":false,"allowInsecure":[],"denyInsecure":[],"defaultCommandTimeout":60,"keepArtifacts":false,"platformName":"iOS","platfor...
+[35m[HTTP][39m [37m<-- POST /session [39m[32m200[39m [90m11247 ms - 2141[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/92a5071a-213d-43cf-8710-ddfeeb683d0c/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"flutter:checkHealth","args":[]}[39m
+[debug] [35m[MJSONWP (92a5071a)][39m Calling AppiumDriver.execute() with args: ["flutter:checkHealth",[],"92a5071a-213d-43cf-8710-ddfeeb683d0c"]
+[debug] [35m[FlutterDriver][39m Executing Flutter driver command 'execute'
+[debug] [35m[FlutterDriver][39m >>> {"command":"get_health"}
+[debug] [35m[FlutterDriver][39m <<< {"isError":false,"response":{"status":"ok"},"type":"_extensionType","method":"ext.flutter.driver"} | previous command get_health
+[debug] [35m[MJSONWP (92a5071a)][39m Responding to client with driver.execute() result: "ok"
+[35m[HTTP][39m [37m<-- POST /session/92a5071a-213d-43cf-8710-ddfeeb683d0c/execute/sync [39m[32m200[39m [90m19 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/92a5071a-213d-43cf-8710-ddfeeb683d0c/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"flutter:clearTimeline","args":[]}[39m
+[debug] [35m[MJSONWP (92a5071a)][39m Calling AppiumDriver.execute() with args: ["flutter:clearTimeline",[],"92a5071a-213d-43cf-8710-ddfeeb683d0c"]
+[debug] [35m[FlutterDriver][39m Executing Flutter driver command 'execute'
+[35m[FlutterDriver][39m {"code":-32601,"message":"Method not found","data":{"request":{"method":"_clearVMTimeline","params":{}}}}
+[debug] [35m[MJSONWP (92a5071a)][39m Responding to client with driver.execute() result: null
+[35m[HTTP][39m [37m<-- POST /session/92a5071a-213d-43cf-8710-ddfeeb683d0c/execute/sync [39m[32m200[39m [90m5 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/92a5071a-213d-43cf-8710-ddfeeb683d0c/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"flutter:forceGC","args":[]}[39m
+[debug] [35m[MJSONWP (92a5071a)][39m Calling AppiumDriver.execute() with args: ["flutter:forceGC",[],"92a5071a-213d-43cf-8710-ddfeeb683d0c"]
+[debug] [35m[FlutterDriver][39m Executing Flutter driver command 'execute'
+[debug] [35m[MJSONWP (92a5071a)][39m Responding to client with driver.execute() result: null
+[35m[HTTP][39m [37m<-- POST /session/92a5071a-213d-43cf-8710-ddfeeb683d0c/execute/sync [39m[32m200[39m [90m16 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/92a5071a-213d-43cf-8710-ddfeeb683d0c/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"flutter:waitFor","args":["eyJmaW5kZXJUeXBlIjoiQnlWYWx1ZUtleSIsImtleVZhbHVlU3RyaW5nIjoiS2lkLUNvaW5zIiwia2V5VmFsdWVUeXBlIjoiU3RyaW5nIn0"]}[39m
+[debug] [35m[MJSONWP (92a5071a)][39m Calling AppiumDriver.execute() with args: ["flutter:waitFor",["eyJmaW5kZXJUeXBlIjoiQnlWYWx1ZUtleSIsImtleVZhbHVlU3RyaW5nIjoiS2lkLUNvaW5zIiwia2V5VmFsdWVUeXBlIjoiU3RyaW5nIn0"],"92a5071a-213d-43cf-8710-ddfeeb683d0c"]
+[debug] [35m[FlutterDriver][39m Executing Flutter driver command 'execute'
+[debug] [35m[FlutterDriver][39m >>> {"command":"waitFor","finderType":"ByValueKey","keyValueString":"Kid-Coins","keyValueType":"String"}
+[debug] [35m[FlutterDriver][39m <<< {"isError":true,"response":"Uncaught extension error while executing waitFor: 'package:flutter_driver/src/extension/extension.dart': Failed assertion: line 214 pos 14: 'WidgetsBinding.instance.isRootWidgetAttached || !command.requiresRootWidgetAttached': No root widget is attached; have you remembered to call runApp()?\n#0      _AssertionError._doThrowNew (dart:core-patch/errors_patch.dart:46:39)\n#1      _AssertionError._throwNew (dart:core-patch/errors_patch.dart:36:5)\n#2      FlutterDriverExtension.call (package:flutter_driver/src/extension/extension.dart:214:14)\n#3      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart:549:32)\n<asynchronous suspension>\n#4      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart)\n#5      _runExtension (dart:developer-patch/developer.dart:84:23)\n","type":"_extensionType","method":"ext.flutter.driver"} | previous command waitFor
+[debug] [35m[MJSONWP (92a5071a)][39m Encountered internal error running command: Error: Cannot execute command waitFor, server reponse {
+[debug] [35m[MJSONWP (92a5071a)][39m   "isError": true,
+[debug] [35m[MJSONWP (92a5071a)][39m   "response": "Uncaught extension error while executing waitFor: 'package:flutter_driver/src/extension/extension.dart': Failed assertion: line 214 pos 14: 'WidgetsBinding.instance.isRootWidgetAttached || !command.requiresRootWidgetAttached': No root widget is attached; have you remembered to call runApp()?\n#0      _AssertionError._doThrowNew (dart:core-patch/errors_patch.dart:46:39)\n#1      _AssertionError._throwNew (dart:core-patch/errors_patch.dart:36:5)\n#2      FlutterDriverExtension.call (package:flutter_driver/src/extension/extension.dart:214:14)\n#3      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart:549:32)\n<asynchronous suspension>\n#4      BindingBase.registerServiceExtension.<anonymous closure> (package:flutter/src/foundation/binding.dart)\n#5      _runExtension (dart:developer-patch/developer.dart:84:23)\n",
+[debug] [35m[MJSONWP (92a5071a)][39m   "type": "_extensionType",
+[debug] [35m[MJSONWP (92a5071a)][39m   "method": "ext.flutter.driver"
+[debug] [35m[MJSONWP (92a5071a)][39m }
+[debug] [35m[MJSONWP (92a5071a)][39m     at FlutterDriver.exports.executeElementCommand (/Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/appium/node_modules/appium-flutter-driver/lib/sessions/observatory.ts:133:11)
+[debug] [35m[MJSONWP (92a5071a)][39m     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[debug] [35m[MJSONWP (92a5071a)][39m     at Object.waitFor (/Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/appium/node_modules/appium-flutter-driver/lib/commands/execute/wait.ts:20:3)
+[35m[HTTP][39m [37m<-- POST /session/92a5071a-213d-43cf-8710-ddfeeb683d0c/execute/sync [39m[31m500[39m [90m44 ms - 1218[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/92a5071a-213d-43cf-8710-ddfeeb683d0c/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"flutter:waitFor","args":["eyJmaW5kZXJUeXBlIjoiQnlWYWx1ZUtleSIsImtleVZhbHVlU3RyaW5nIjoiS2lkLUNvaW5zIiwia2V5VmFsdWVUeXBlIjoiU3RyaW5nIn0"]}[39m
+[debug] [35m[MJSONWP (92a5071a)][39m Calling AppiumDriver.execute() with args: ["flutter:waitFor",["eyJmaW5kZXJUeXBlIjoiQnlWYWx1ZUtleSIsImtleVZhbHVlU3RyaW5nIjoiS2lkLUNvaW5zIiwia2V5VmFsdWVUeXBlIjoiU3RyaW5nIn0"],"92a5071a-213d-43cf-8710-ddfeeb683d0c"]
+[debug] [35m[FlutterDriver][39m Executing Flutter driver command 'execute'
+[debug] [35m[FlutterDriver][39m >>> {"command":"waitFor","finderType":"ByValueKey","keyValueString":"Kid-Coins","keyValueType":"String"}
+[debug] [35m[FlutterDriver][39m <<< {"isError":false,"response":{},"type":"_extensionType","method":"ext.flutter.driver"} | previous command waitFor
+[debug] [35m[MJSONWP (92a5071a)][39m Responding to client with driver.execute() result: null
+[35m[HTTP][39m [37m<-- POST /session/92a5071a-213d-43cf-8710-ddfeeb683d0c/execute/sync [39m[32m200[39m [90m1021 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGTERM - shutting down
+[debug] [35m[Appium][39m Cleaning up 1 active session
+[35m[Appium][39m Closing session, cause was 'The process has received SIGTERM signal'
+[35m[Appium][39m Removing session '92a5071a-213d-43cf-8710-ddfeeb683d0c' from our master session list
+[debug] [35m[FlutterDriver][39m Deleting Flutter Driver session
+[debug] [35m[WD Proxy][39m Matched '/session/1d455f89-77ef-475a-8315-e12370a7b9c4' to command name 'deleteSession'
+[debug] [35m[WD Proxy][39m Proxying [DELETE /session/1d455f89-77ef-475a-8315-e12370a7b9c4] to [DELETE http://127.0.0.1:8100/session/07397BB6-CE11-4887-8E56-BDE8A0433C25] with no body
+[35m[FlutterDriver][39m Connection to ws://127.0.0.1:59570/TyryFHuEZBU=/ws closed
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":null,"sessionId":"7371560A-24DE-416E-B848-D214D8B9B9EE"}
+[35m[DevCon Factory][39m Releasing connections for 571E045A-5AE7-4ED8-8C89-ED79E3686A56 device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["571E045A-5AE7-4ED8-8C89-ED79E3686A56:8100"]
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[debug] [35m[XCUITest][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [35m[IOSSimulatorLog][39m Stopping iOS log capture
