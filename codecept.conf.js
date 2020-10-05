@@ -12,12 +12,12 @@ const directoryDate = 'reports' + '/' + date
 //json configs in properties file
 
 //var deviceConfig = "properties.iosConfigs.local.emulator.appium"
-var deviceConfig = "properties.androidConfigs.local.real.appium"
+var deviceConfig = "properties.androidConfigs.bitbar.androidReal.appium"
 
 var env = deviceConfig.split (".")
 
 //var deviceConfig = properties.iosConfigs.local.emulator.appium
-var deviceConfig = properties.androidConfigs.local.real.appium
+var deviceConfig = properties.androidConfigs.bitbar.androidReal.appium
 
 reportsDirectory = './'+ directory + '/' + date + "/" + env[2] + "-" + env[3] + "-" + deviceConfig.capabilities.deviceName
 

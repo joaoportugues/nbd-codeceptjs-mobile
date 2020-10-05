@@ -191,20 +191,19 @@
 			"androidReal": {
 				"appium": {
 					"platformName": "Android",
-					"app": "kobiton-store:73430",
-		 			"host": "jtime:ba032643-a3d4-460e-9ce6-a104cdcea2f4@api.kobiton.com",
+					"bitbar_app": "https://cloud.bitbar.com/cloud/api/v2/me/files/134123077/file",
+		 			"host": "https://appium.bitbar.com",
      	 			"path": "/wd/hub",
-					"port": 80,
     	 			"capabilities": {
-						"sessionName": "Automation test session",
-						"sessionDescription": "",
-						"deviceOrientation": "portrait",
-						"captureScreenshots": true,
-						"browserName": "chrome",
-						"deviceGroup": "KOBITON",
-						"deviceName": "Xperia 10 Plus",
-						"platformVersion": "10",
-						"platformName": "Android"
+						"bitbar_apiKey": "qk3of857UAWcPN6pKB6WBOjxts7pAFZE",
+						"bitbar_device": "Samsung Galaxy S10e SM-G970F",
+						"bitbar_app": "https://cloud.bitbar.com/cloud/api/v2/me/files/134123077/file",
+						"bitbar_target": "android",
+						"platformName": "Android",
+						"deviceName": "Android Phone",
+						"appPackage": "com.nobigdeal",
+						"appActivity": "com.nobigdeal.MainActivity",
+						"automationName": "Appium"
 					}
 				}
 			}

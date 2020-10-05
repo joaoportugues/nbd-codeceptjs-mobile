@@ -30,5 +30,3 @@ Given('I see {string}', (text) => {main.seeText(text)});
 Then('I press {string}', (name) => {main.clickOption(name)});
 
 Then('I type {string} in {string}', (text, field) => {main.type(text, field)});
-
-Then('I see graphic {string}', async (text, field) => {main.evaluateGraphic(text)});
